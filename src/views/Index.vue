@@ -1,9 +1,10 @@
 <template>
   <div class="home">
+    <NavigationIndex />
     <Slide />
     <section01 />
     <section02 />
-    <NavigationMid />
+    <Navigation />
     <Contact />
     <Footer />
   </div>
@@ -11,22 +12,24 @@
 
 <script>
 // @ is an alias to /src
+import Navigation from "@/components/Navigation.vue";
 import Slide from "@/components/Slide.vue";
 import Section01 from "@/components/Section01.vue";
 import Section02 from "@/components/Section02.vue";
-import NavigationMid from "@/components/NavigationMid.vue";
 import Contact from "@/components/Contact.vue";
 import Footer from "@/components/Footer.vue";
+import NavigationIndex from "@/components/NavigationIndex.vue";
 
 export default {
   name: "HomeView",
   components: {
+    Navigation,
     Slide,
     Section01,
     Section02,
-    NavigationMid,
     Contact,
     Footer,
+    NavigationIndex,
   },
 };
 </script>
