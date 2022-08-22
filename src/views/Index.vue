@@ -30,6 +30,6 @@ export default {
     Contact,
     Footer,
     NavigationIndex,
-  },
+  }
 };
 </script>

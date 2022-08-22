@@ -1,0 +1,108 @@
+
+
+.btnExplorer{
+    background-color: var(--grey-color);
+    height: 41px;
+    width: 14rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: var(--fontFamily-bold);
+    font-size: 25px;
+}
+a{
+    padding: 7px
+}
+.btnNavOnMain,
+.btnNavOfMain{
+    cursor: pointer;
+    font-family: var(--fontFamily-bold)
+}
+.formMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--violet-color);
+    width: 440px;
+    height: 24rem;
+    border-radius: 25px;
+}
+label{
+    color: var(--grey-color);
+    font-family: var(--fontFamily-bold);
+    font-size: 12px;
+}
+input{
+    background-color: var(--lilac-color);
+    border: none;
+    height: 23px;
+    border-radius: 5px;
+    outline: none;   
+}
+
+.formTitle{
+    color: var(--grey-color);
+    text-align: center;
+    font-family: var(--fontFamily-bold);
+}
+.cntTextField{
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+.cntFormOne,
+.cntFormTwo{
+    display: flex;
+    justify-content: center;
+}
+.textAreaForm{
+    width: 360px;
+    height: 91px;
+    background-color: var(--lilac-color);
+    border-radius: 5px;
+    padding: 14px;
+    border: none;
+    resize: none;
+    outline: none;   
+}
+.btnForm{
+    width: 100px;
+    margin-top: 19px;
+    height: 27px;
+    border: none;
+    font-family: var(--fontFamily-bold);
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px){
+    input{width: 150px;}
+    .formMain{
+        width: 217px;
+        height: 31rem;
+    }
+    .cntFormOne,
+    .cntFormTwo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .textAreaForm{
+        width: 126px;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    input{    
+        width: 180px;
+        padding: 0px 5px;
+    }
+    .textAreaForm{
+        width: 360px;
+    }
+
+}
+
+
+
+
+
